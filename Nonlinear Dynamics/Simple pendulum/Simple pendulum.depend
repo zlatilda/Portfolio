@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1680982176 source:d:\nonlinear dynamics\simple pendulum\main.cpp
+	<stdio.h>
+	<iostream>
+	<cmath>
+	<graphics.h>
+	<stdlib.h>
+	<time.h>
+	<random>
+	<windows.h>
+

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1680283271 source:d:\nonlinear dynamics\simple map\main.cpp
+	<stdio.h>
+	<iostream>
+	<cmath>
+	<graphics.h>
+	<stdlib.h>
+	<time.h>
+	<random>
+
