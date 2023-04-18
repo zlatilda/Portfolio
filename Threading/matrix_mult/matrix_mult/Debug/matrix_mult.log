@@ -1,0 +1,9 @@
+﻿  Source.cpp
+d:\other files\potoky\matrix_mult\matrix_mult\source.cpp(26): warning C4474: 'printf' : too many arguments passed for format string
+  d:\other files\potoky\matrix_mult\matrix_mult\source.cpp(26): note: placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+d:\other files\potoky\matrix_mult\matrix_mult\source.cpp(110): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\matrix_mult\matrix_mult\source.cpp(125): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\matrix_mult\matrix_mult\source.cpp(132): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\matrix_mult\matrix_mult\source.cpp(144): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  matrix_mult.vcxproj -> D:\other files\potoky\matrix_mult\Debug\matrix_mult.exe
+  matrix_mult.vcxproj -> D:\other files\potoky\matrix_mult\Debug\matrix_mult.pdb (Partial PDB)

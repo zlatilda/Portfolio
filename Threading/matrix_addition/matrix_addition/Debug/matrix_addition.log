@@ -1,0 +1,7 @@
+﻿  Source.cpp
+d:\other files\potoky\matrix_addition\matrix_addition\source.cpp(102): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\matrix_addition\matrix_addition\source.cpp(121): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\matrix_addition\matrix_addition\source.cpp(128): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\matrix_addition\matrix_addition\source.cpp(146): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  matrix_addition.vcxproj -> D:\other files\potoky\matrix_addition\Debug\matrix_addition.exe
+  matrix_addition.vcxproj -> D:\other files\potoky\matrix_addition\Debug\matrix_addition.pdb (Partial PDB)
