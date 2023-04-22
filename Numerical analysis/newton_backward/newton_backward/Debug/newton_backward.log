@@ -1,0 +1,4 @@
+﻿  Source.cpp
+d:\other files\chyselni_metody\newton_backward\newton_backward\source.cpp(42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  newton_backward.vcxproj -> D:\other files\chyselni_metody\newton_backward\Debug\newton_backward.exe
+  newton_backward.vcxproj -> D:\other files\chyselni_metody\newton_backward\Debug\newton_backward.pdb (Partial PDB)

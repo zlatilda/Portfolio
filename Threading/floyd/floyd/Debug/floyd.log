@@ -1,0 +1,8 @@
+﻿  Source.cpp
+d:\other files\potoky\floyd\floyd\source.cpp(43): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\other files\potoky\floyd\floyd\source.cpp(189): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\floyd\floyd\source.cpp(202): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\floyd\floyd\source.cpp(208): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\floyd\floyd\source.cpp(219): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  floyd.vcxproj -> D:\other files\potoky\floyd\Debug\floyd.exe
+  floyd.vcxproj -> D:\other files\potoky\floyd\Debug\floyd.pdb (Partial PDB)

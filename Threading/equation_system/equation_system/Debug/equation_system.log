@@ -1,0 +1,8 @@
+﻿  Source.cpp
+d:\other files\potoky\equation_system\equation_system\source.cpp(58): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\other files\potoky\equation_system\equation_system\source.cpp(136): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\equation_system\equation_system\source.cpp(151): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\equation_system\equation_system\source.cpp(157): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\equation_system\equation_system\source.cpp(170): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  equation_system.vcxproj -> D:\other files\potoky\equation_system\Debug\equation_system.exe
+  equation_system.vcxproj -> D:\other files\potoky\equation_system\Debug\equation_system.pdb (Partial PDB)

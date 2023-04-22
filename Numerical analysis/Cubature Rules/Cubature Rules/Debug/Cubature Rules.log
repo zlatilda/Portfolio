@@ -1,0 +1,5 @@
+﻿  Integrals.cpp
+  Source.cpp
+e:\studing\metodi\cubature rules\cubature rules\source.cpp(30): warning C4101: 'approx': unreferenced local variable
+  Generating Code...
+  Cubature Rules.vcxproj -> E:\studing\metodi\Cubature Rules\Debug\Cubature Rules.exe

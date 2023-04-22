@@ -1,0 +1,8 @@
+﻿  Source.cpp
+d:\other files\potoky\prima\prima\source.cpp(63): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\other files\potoky\prima\prima\source.cpp(142): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\prima\prima\source.cpp(155): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\prima\prima\source.cpp(161): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+d:\other files\potoky\prima\prima\source.cpp(172): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  prima.vcxproj -> D:\other files\potoky\prima\Debug\prima.exe
+  prima.vcxproj -> D:\other files\potoky\prima\Debug\prima.pdb (Partial PDB)
