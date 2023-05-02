@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1683022468 source:d:\cpp\binary tree\main.cpp
+1683025727 source:d:\cpp\binary tree\main.cpp
 	<iostream>
 	"binary_tree.h"
 
-1683022641 d:\cpp\binary tree\binary_tree.h
+1683024803 d:\cpp\binary tree\binary_tree.h
 	<iostream>
 
