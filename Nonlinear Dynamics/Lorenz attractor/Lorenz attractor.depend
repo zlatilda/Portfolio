@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1683125911 source:d:\nonlinear dynamics\lorenz attractor\main.cpp
+	<iostream>
+	<math.h>
+	<windows.h>
+	<graphics.h>
+

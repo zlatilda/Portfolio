@@ -2,16 +2,27 @@
 #include "binary_tree.h"
 using namespace std;
 
-
 int main()
 {
-    binary_tree<int>* root = new binary_tree<int>(10);
+    binary_tree<int>* root = new binary_tree<int>(100);
+    binary_tree<int>* a = root;
 
-    root->left_child = new binary_tree<int>(5);
-    root->right_child = new binary_tree<int>(15);
-    root->right_child->right_child = new binary_tree<int>(500);
+    /*for(int i=3; i<5; i++)
+    {
+        a->add_right(i);
+        a->add_left(i*10);
+        a=a->right_child;
+    }
+    a=root->left_child;
+    for(int i=1; i<=2; i++)
+    {
+        a->add_right(i);
+        a->add_left(i*10);
+        a=a->left_child;
+    }*/
 
     cout << root->get_height(root) << endl;
+    root->print(root);
 
     return 0;
 }

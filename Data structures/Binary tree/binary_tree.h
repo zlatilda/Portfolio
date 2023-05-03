@@ -30,4 +30,24 @@ class binary_tree
                     return right_height + 1;
             }
         }
+
+        void print(binary_tree* root)
+        {
+            if (root)
+            {
+                cout << root->data << " ";
+                print(root->left_child);
+                print(root->right_child);
+            }
+        }
+
+        void add_left(T l_data=NULL)
+        {
+            left_child = new binary_tree(l_data);
+        }
+
+        void add_right(T r_data=NULL)
+        {
+            right_child = new binary_tree(r_data);
+        }
 };
