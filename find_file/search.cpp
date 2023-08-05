@@ -111,7 +111,7 @@ void _search()
 
     if(exit_thread_flag == false)
     {
-        printf("Nothing found");
+        printf("Nothing found \n");
     }
 }
 

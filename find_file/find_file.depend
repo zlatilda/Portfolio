@@ -32,7 +32,7 @@
 	<mutex>
 	"search.h"
 
-1691227329 source:d:\portfolio\portfolio\find_file\search.cpp
+1691229570 source:d:\portfolio\portfolio\find_file\search.cpp
 	<windows.h>
 	<stdio.h>
 	<stdlib.h>
@@ -43,4 +43,10 @@
 	"search.h"
 
 1691226940 d:\portfolio\portfolio\find_file\search.h
+
+1691228172 source:d:\portfolio\portfolio\find_file\main.cpp
+	"search.h"
+	<exception>
+	<stdio.h>
+	<cstdlib>
 
