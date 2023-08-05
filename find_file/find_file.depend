@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1691227024 source:c:\users\zlatilda\desktop\find_file\main.cpp
+	"search.h"
+	<exception>
+	<stdio.h>
+
+1691226940 c:\users\zlatilda\desktop\find_file\search.h
+
+1691226923 source:c:\users\zlatilda\desktop\find_file\search.cpp
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<thread>
+	<vector>
+	<mutex>
+
+1691227024 source:d:\cpp\find_file\main.cpp
+	"search.h"
+	<exception>
+	<stdio.h>
+
+1691226940 d:\cpp\find_file\search.h
+
+1691227329 source:d:\cpp\find_file\search.cpp
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+	<thread>
+	<vector>
+	<mutex>
+	"search.h"
+
