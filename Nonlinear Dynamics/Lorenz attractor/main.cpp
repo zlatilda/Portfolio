@@ -105,13 +105,13 @@ int main()
 
     initwindow(700, 700);
 
-    display(steps_n, init, delta_t, sigma, ro, beta, 4);
+    //display(steps_n, init, delta_t, sigma, ro, beta, 4);
 
-    /*for(double i = 0; i<=70; i += 0.1)                        //ro -> inf animation
+    for(double i = 0; i<=70; i += 0.1)                        //ro -> inf animation
     {
         display(steps_n, init, delta_t, sigma, i, beta, 4);
         cleardevice();
-    }*/
+    }
 
     getch();
 
