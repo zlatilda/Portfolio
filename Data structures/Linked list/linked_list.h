@@ -28,7 +28,23 @@ class linked_list
             head = new_node;
         }
 
-        void print()
+        void position_insert(T data, int position)
+        {
+            node<T>* temp = new node<T>;
+            temp = head;
+            int j = 1;
+            while(j<position)
+            {
+                temp = temp->next_ptr;
+                j++;
+            }
+            node<T>* new_node = new node<T>;
+            new_node->data = data;
+            new_node->next_ptr = temp->next_ptr;
+            temp->next_ptr = new_node;
+        }
+
+        void print() const
         {
             node<T>* head_1 = new node<T>;
             head_1 = head;
@@ -39,10 +55,30 @@ class linked_list
                 if(head_1->next_ptr == NULL) {break;}
                 head_1 = head_1->next_ptr;
             }
-
         }
 
-        int get_size()
+        void _reverse()
+        {
+            node<T>* p_1 = new node<T>;
+            node<T>* p_2 = new node<T>;
+            node<T>* p_3 = new node<T>;
+
+            p_1 = head;
+            p_2 = p_1->next_ptr;
+            p_3 = p_2->next_ptr;
+            p_1->next_ptr = NULL;
+            p_2->next_ptr = p_1;
+            while(p_3 != NULL)
+            {
+                p_1 = p_2;
+                p_2 = p_3;
+                p_3 = p_3->next_ptr;
+                p_2->next_ptr = p_1;
+            }
+            head = p_2;
+        }
+
+        int get_size() const
         {
             if(head != NULL)
             {
@@ -60,7 +96,7 @@ class linked_list
             return 0;
         }
 
-        T get_by_pos(int position)
+        T get_by_pos(int position) const
         {
             node<T>* head_1 = new node<T>;
             head_1 = head;
@@ -72,7 +108,7 @@ class linked_list
             return head_1->data;
         }
 
-        int get_by_value(T value)
+        int get_by_value(T value) const
         {
             node<T>* head_1 = new node<T>;
             head_1 = head;
@@ -92,18 +128,6 @@ class linked_list
             node<T>* x = head;
             head= head->next_ptr;
             free(x);
-        }
-
-        void delete_list()
-        {
-            node<T>* x = head;
-
-            while(x != NULL)
-            {
-                head= head->next_ptr;
-                free(x);
-                x = head;
-            }
         }
 
         void delete_specific(int position)
@@ -136,6 +160,18 @@ class linked_list
                 }
                 free(curr);
                 prev->next_ptr = next;
+            }
+        }
+
+        ~linked_list()
+        {
+            node<T>* x = head;
+
+            while(x != NULL)
+            {
+                head= head->next_ptr;
+                free(x);
+                x = head;
             }
         }
 };
