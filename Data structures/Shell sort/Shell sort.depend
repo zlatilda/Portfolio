@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1689621497 source:d:\cpp\shell sort\main.cpp
+	<iostream>
+	<cmath>
+	<stdio.h>
+	<string.h>
+
