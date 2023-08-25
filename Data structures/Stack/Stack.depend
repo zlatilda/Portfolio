@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1688472194 source:d:\cpp\stack\main.cpp
+	<iostream>
+	<typeinfo>
+	<vector>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<sstream>
+	"arr_stack.h"
+
+1688629741 d:\cpp\stack\arr_stack.h
+	<iostream>
+	<cstdlib>
+	<bits/stdc++.h>
+
