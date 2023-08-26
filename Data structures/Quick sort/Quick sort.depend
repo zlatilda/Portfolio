@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1690191769 source:d:\cpp\quick sort\main.cpp
+	<iostream>
+	<cmath>
+	<stdio.h>
+	<string.h>
+
